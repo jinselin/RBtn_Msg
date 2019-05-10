@@ -134,12 +134,14 @@
             // 
             // btnShow
             // 
+            this.btnShow.Font = new System.Drawing.Font("배달의민족 연성", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnShow.Location = new System.Drawing.Point(12, 108);
             this.btnShow.Name = "btnShow";
             this.btnShow.Size = new System.Drawing.Size(301, 109);
             this.btnShow.TabIndex = 2;
             this.btnShow.Text = "Show";
             this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
             // Form1
             // 
